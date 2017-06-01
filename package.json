@@ -1,0 +1,30 @@
+{
+  "name": "redux101",
+  "version": "1.0.0",
+  "description": "redux 101",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build.js",
+    "build": "babel index.js --out-file build.js --presets=es2015",
+    "build:watch": "babel index.js --watch --out-file build.js --presets=es2015",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MOctavio/redux-101.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "M.Octavio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MOctavio/redux-101/issues"
+  },
+  "homepage": "https://github.com/MOctavio/redux-101#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "redux": "^3.6.0"
+  }
+}
